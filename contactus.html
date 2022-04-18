@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: James P
+		Date: 3/30/2022
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Contact Us</title>
+   <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/Luxair_Logo.png" alt="Luxair_Logo"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "fboservices.html">FBO Services</a></li>
+	  <li><a href = "aboutus.html">About Us</a></li>
+	  <li><a href = "contactus.html">Contact Us</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main">
+<img src = "images/Hawker.jpg" alt = "Hawker Visual"  /> 
+
+<h2>Contact Us</h2>
+<form id="contactus" action="http://www.example.com/luxair/contactus" method="post">
+	<fieldset id="contactus">
+		<div class="formRow">
+			<label for="name">Name</label>
+			<input name="custName" id="name" type="text" />
+		 </div>
+		 <div class="formRow">	
+			<label for="street">Address</label>
+			<input name="custStreet" id="street" type="text" />
+		</div>
+		<div class="formRow">
+			<label for="city">City</label>
+			<input name="custCity" id="city" type="text" />
+		</div>
+		<div class="formRow">
+			<label for="state">State</label>
+			<input name="custState" id="state" type="text" />
+		</div>
+		<div class="formRow">
+			<label for="zip">Zip Code</label>
+			<input name="custZip" id="zip" type="text" />
+		 </div>
+		<div class="formRow">
+			<label for="phone">Phone</label>
+			<input name="custPhone" id="phone" type="tel" placeholder="(###) ###-####" />
+		</div>
+		<div class="formRow">
+			<label for="mail">E-mail</label>
+			<input name="custEmail" id="mail" type="email" /> 
+		</div>
+		<div class="formRow">
+			<label for="dineSpin">Aircraft Type</label>
+			<input name="aircrafttype" id="aircraft" type="text" placeholder="N###AE" />
+		</div>
+		<label for="commBox">Request/Comments</label>
+		<textarea name="requestcomments" id="commBox"></textarea>
+	</fieldset>
+	
+		<div id="buttons">
+			<input type="submit" value="Submit" />
+		</div>
+	
+</form>
+
+
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Airport Information<h3>
+	<p>CTAF/Unicom: 122.8<p>
+	<p>Weather ASOS: 135.225<p>
+	<p>RWY 17/35 10,000 x 150ft.<p>
+	<p>RWY 13/31 7,510 x 100ft.<p>
+	<p>Denver Center/Denver Flight Service Station<p>
+	
+</aside>   
+
+<footer> 
+
+	<p>LuxAir<br />
+	2100 Airport Road &bull; Montrose, CO 81401<br />
+	<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "tel:+19702493205">Telephone</a> | <a href = "mailto:info@flyluxair.com">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
